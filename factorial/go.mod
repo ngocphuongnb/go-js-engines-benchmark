@@ -1,11 +1,12 @@
 module factorial
 
-go 1.24.6
+go 1.25.4
 
 require (
 	github.com/dop251/goja v0.0.0-20251008123653-cf18d89f3cf6
 	github.com/fastschema/qjs v0.0.5
 	github.com/jedib0t/go-pretty/v6 v6.6.8
+	github.com/nooga/paserati v0.0.0-20260110222506-7d1939665eee
 	modernc.org/quickjs v0.16.5
 )
 
@@ -23,7 +24,7 @@ require (
 	github.com/tetratelabs/wazero v1.9.0 // indirect
 	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546 // indirect
 	golang.org/x/sys v0.37.0 // indirect
-	golang.org/x/text v0.30.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	modernc.org/libc v1.66.10 // indirect
 	modernc.org/libquickjs v0.12.2 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
