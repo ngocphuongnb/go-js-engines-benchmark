@@ -12,6 +12,7 @@ func Engines() []JSEngine {
 	return []JSEngine{
 		&GOJA{},
 		&ModerncQuickJS{},
+		&Paserati{},
 		&QJS{},
 	}
 }
